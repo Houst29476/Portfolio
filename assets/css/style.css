@@ -1,17 +1,23 @@
-/* HEADER / NAV BAR STYLES START */
+:root {
+    --primary-color: white;
+    --secondary-color: #0a192f;
+    --primary-font: 'Roboto', sans-serif;
+}
 
+
+/* HEADER / NAV BAR STYLES START */
 header {
   background-image: url('../images/StarStruck.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: 80%;
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 9999;
 }   
 
@@ -51,28 +57,66 @@ header nav ul li a {
 }
   
 header nav ul li a:hover {
-  background: white;
-  color: navy;
+  background: #0a192f;
+  color: white;
   border-radius: 15px;
   text-shadow: none;
 }
 /* HEADER / NAVBAR STYLES END */
 
-
-
-
-
-
-
 /* HERO STYLES START */
-.hero {
-    background-image: url('../images/StarStruck.jpg');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-  }
+body {
+  background-color: #0a192f;
+}
 
+.hero h1 {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  margin: 550px 0 0 150px;
+  font-size: 50px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hero p {
+  font-family: var(--primary-font);
+  font-weight: lighter;
+  margin: 10px 525px 750px 150px;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+/* HERO STYLES END */
+
+/* ABOUT ME STYLES */
+.intro h2 {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  margin: 0 0 0 150px;
+  font-size: 26px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start; 
+}
+
+.intro h2::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 17px;
+  width: 300px;
+  height: .08px;
+  margin-left: 30px;
+  background-color: #233554;
+}
+
+.intro p {
+  font-family: var(--primary-font);
+  font-weight: lighter;
+  line-height: 1.7;
+  color: var(--primary-color);
+  margin: 10px 525px 550px 150px;
+  font-size: 20px;
+}
