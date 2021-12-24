@@ -90,7 +90,7 @@ body {
 /* HERO STYLES END */
 
 /* ABOUT ME STYLES */
-.intro h2 {
+.about-me h2 {
   font-family: var(--primary-font);
   color: var(--primary-color);
   margin: 0 0 0 150px;
@@ -101,7 +101,7 @@ body {
   align-items: flex-start; 
 }
 
-.intro h2::after {
+.about-me h2::after {
   content: "";
   display: block;
   position: relative;
@@ -112,11 +112,20 @@ body {
   background-color: #233554;
 }
 
-.intro p {
+#one {
   font-family: var(--primary-font);
   font-weight: lighter;
   line-height: 1.7;
   color: var(--primary-color);
-  margin: 10px 525px 10px 150px;
+  margin: 10px 750px 20px 150px;
+  font-size: 20px;
+}
+
+#two {
+  font-family: var(--primary-font);
+  font-weight: lighter;
+  line-height: 1.7;
+  color: var(--primary-color);
+  margin: 10px 750px 400px 150px;
   font-size: 20px;
 }
