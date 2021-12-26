@@ -69,47 +69,42 @@ body {
   background-color: #0a192f;
 }
 
-.hero h1 {
+.section-title {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  margin: 550px 0 0 150px;
+  text-align: left;
+  margin: 530px 0 0 150px;
   font-size: 50px;
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
+ }
 
 .hero p {
   font-family: var(--primary-font);
   font-weight: lighter;
-  margin: 10px 525px 1000px 150px;
   color: var(--primary-color);
+  margin: 10px 150px 0 150px;
   font-size: 20px;
+  text-align: left;
 }
 /* HERO STYLES END */
 
 /* ABOUT ME STYLES */
-.about-me h2 {
+.about-me {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  margin: 0 0 0 150px;
+  text-align: left;
+  margin: 900px 0 0 150px;
   font-size: 29px;
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  align-items: flex-start; 
 }
 
-.about-me h2::after {
+.about-me::after {
   content: "";
   display: block;
   position: relative;
-  top: 20px;
-  width: 300px;
+  top: -15px;
+  width: 325px;
   height: .08px;
-  margin-left: 30px;
-  background-color: #233554;
+  margin-left: 170px;
+  background-color: rgb(185, 185, 185);
 }
 
 #one {
@@ -117,7 +112,7 @@ body {
   font-weight: lighter;
   line-height: 1.7;
   color: var(--primary-color);
-  margin: 10px 750px 20px 150px;
+  margin: 10px 520px 0 150px;
   font-size: 20px;
 }
 
@@ -126,12 +121,13 @@ body {
   font-weight: lighter;
   line-height: 1.7;
   color: var(--primary-color);
-  margin: 10px 750px 400px 150px;
+  margin: 20px 520px 600px 150px;
   font-size: 20px;
 }
 
 .person-img {
 display: flex;
-margin: -757px 5px 400px 1100px;
+margin: -910px 5px 400px 1185px;
 }
-  
+/* ABOUT ME STYLES END */
+
