@@ -34,7 +34,7 @@ section  {
 /* Page Layout & Structure End*/
 
 
-/* Header / Navbar Start */
+/* Header / Navbar */
 header {
   background-image: url('../images/StarStruck.jpg');
   background-size: cover;
@@ -117,7 +117,7 @@ nav a:hover {
 }
 /* Hero end */
 
-/* ABOUT ME STYLES */
+/* About Me */
 .about {
   display: flex;
   -webkit-box-pack: center;
@@ -135,6 +135,7 @@ nav a:hover {
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
+
 .about::after {
   content: "";
   display: block;
@@ -168,12 +169,32 @@ nav a:hover {
 display: flex;
 margin: -375px 0 0 770px;
 }
-/* ABOUT ME STYLES END */
+/* About Me End */
 
+/* Projects */
+.projects {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0 150px;
+}
 
+.projects h2 {
+  font-family: var(--primary-font);
+  font-size: 32px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  margin: 150px 0 20px 0;
+}
 
-
-
+.project-img {
+  display: flex;
+  margin: 10px 10px;
+}
 
 
 
