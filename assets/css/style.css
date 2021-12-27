@@ -4,130 +4,127 @@
     --primary-font: 'Roboto', sans-serif;
 }
 
+/* Page Layout & Structure */
+main {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1300px;
+  min-height: 100vh;
+  padding: 0 150px;
+  display: block;
+}
 
-/* HEADER / NAV BAR STYLES START */
+main.fillHeight {
+  margin: 0 24px;
+  padding: 0 150px;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--secondary-color);
+}
+
+section  {
+  display: block;
+  margin: 0 auto;
+  padding: 100px 0;
+  max-width: 1000px;
+}
+/* Page Layout & Structure End*/
+
+
+/* Header / Navbar Start */
 header {
   background-image: url('../images/StarStruck.jpg');
   background-size: cover;
   background-attachment: fixed;
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999;
-}   
-
-header h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    margin: 0;
-    font-size: 157px;
-    color: white;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-}
-
-header a {
-    font-family: 'roboto', sans-serif;
-    text-decoration: none;
-    color: white;
-}
-  
-header nav {
-  margin: 7px 0;
-}
-  
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
   align-items: center;
-  list-style: none;
+  position: fixed;
+  top: 0px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  width: 100%;
 }
-  
-header nav ul li a {
-  font-family:'roboto', sans-serif;
-  padding: 10px 15px;
+
+nav a {
+  display: inline-block;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
   font-weight: lighter;
-  font-size: 2.55vw;
+  font-size: 1.95vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  padding: 10px;
 }
-  
-header nav ul li a:hover {
+
+ul > li {
+  display: inline-block;
+}
+
+nav a:hover {
   background: #0a192f;
   color: white;
   border-radius: 15px;
   text-shadow: none;
 }
-/* HEADER / NAVBAR STYLES END */
+/* Header / Navbar End */
 
-/* HERO STYLES START */
-body {
-  background-color: #0a192f;
+/* Hero */
+.hero {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0 150px;
 }
 
-.section-title {
+.hero h1 {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-weight: lighter;
+  color: var(--primary-color);
+  margin: -245px 50px 0 0;
+}
+
+.hero h2 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 100px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  margin: -200px 0 0 0;
+}
+
+.hero h3 {
   font-family: var(--primary-font);
   color: var(--primary-color);
-  text-align: left;
-  margin: 530px 0 0 150px;
   font-size: 50px;
- }
+  margin: -50px 0 30px 0;
+}
 
 .hero p {
   font-family: var(--primary-font);
+  color: var(--primary-color);
   font-weight: lighter;
-  color: var(--primary-color);
-  margin: 10px 150px 0 150px;
-  font-size: 20px;
-  text-align: left;
-}
-/* HERO STYLES END */
-
-/* ABOUT ME STYLES */
-.about-me {
-  font-family: var(--primary-font);
-  color: var(--primary-color);
-  text-align: left;
-  margin: 900px 0 0 150px;
-  font-size: 29px;
+  font-size: 18px;
+  margin: 0 340px 0 0;
 }
 
-.about-me::after {
-  content: "";
-  display: block;
-  position: relative;
-  top: -15px;
-  width: 325px;
-  height: .08px;
-  margin-left: 170px;
-  background-color: rgb(185, 185, 185);
-}
+/* Hero end */
 
-#one {
-  font-family: var(--primary-font);
-  font-weight: lighter;
-  line-height: 1.7;
-  color: var(--primary-color);
-  margin: 10px 520px 0 150px;
-  font-size: 20px;
-}
 
-#two {
-  font-family: var(--primary-font);
-  font-weight: lighter;
-  line-height: 1.7;
-  color: var(--primary-color);
-  margin: 20px 520px 600px 150px;
-  font-size: 20px;
-}
 
-.person-img {
-display: flex;
-margin: -910px 5px 400px 1185px;
-}
-/* ABOUT ME STYLES END */
+
+
+
+
+
+
 
