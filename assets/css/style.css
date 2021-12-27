@@ -169,6 +169,10 @@ nav a:hover {
 display: flex;
 margin: -375px 0 0 770px;
 }
+
+.person-img:hover {
+  transform: scale(1.5);
+}
 /* About Me End */
 
 /* Projects */
@@ -191,11 +195,25 @@ margin: -375px 0 0 770px;
   margin: 150px 0 20px 0;
 }
 
+.projects h3 {
+  font-family: var(--primary-font);
+  color: #007BFF;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.projects a {
+  color: #007BFF;
+}
+
 .project-img {
   display: flex;
   margin: 10px 10px;
 }
 
+.project-img:hover {
+  transform: scale(1.5);
+}
 
-
+/* Projects End */
 
