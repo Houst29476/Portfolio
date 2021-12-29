@@ -58,11 +58,14 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
-
 /* Header / Navbar End */
 
-/* STYLE ALL SECTION TAGS */
+/* Style on all Section & Article tags */
 section {
+  padding: 100px;
+}
+
+article {
   padding: 100px;
 }
 
@@ -284,9 +287,9 @@ margin: 30px 0 200px 210px;
   border-radius: 15px;
   text-shadow: none;
 }
+/* Contact Me end */
 
-
-/* FOOTER STYLES START */
+/* Footer */
 footer {
   background: var(--secondary-color);
   padding: 80px;
@@ -298,7 +301,7 @@ footer h2 {
   font-size: 12px;
   font-weight: lighter;
 }
-/* END FOOTER STYLES */
+/* Footer end */
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
