@@ -1,4 +1,4 @@
-# Build Developer Portfolio
+# My Portfolio
 
 Application live URL: https://houst29476.github.io/portfolio/
 
